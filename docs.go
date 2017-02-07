@@ -1,9 +1,9 @@
 /*
-  Tiny package to define two compile-time constants
+  Trivial package to define two compile-time constants
     Big
 	Little
   one of which is true and the other false, depending on
-  what the endiannesss of the CPU is.
+  the endianness of the CPU.
 
   This information is crucial in bit hacks, yet is lacking
   as a constant.
