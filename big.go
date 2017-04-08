@@ -2,5 +2,9 @@
 
 package cpuendian
 
+import "encoding/binary"
+
 const Big = false
 const Little = true
+
+var CPU binary.BigEndian

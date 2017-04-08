@@ -3,7 +3,9 @@
     Big
 	Little
   one of which is true and the other false, depending on
-  the endianness of the CPU.
+  the endianness of the CPU, and a
+    CPU     binary.ByteOrder
+  with the CPU's endianness.
 
   This information is crucial in bit hacks, yet is lacking
   as a constant.
